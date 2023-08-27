@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+
+            .hii
+            {
+                height:50px;
+                width:100px;
+                background-color: black;
+                animation-name:boxx;
+                animation-duration:4s;
+                position: relative;
+                animation-iteration-count: 10000;
+                border:solid skyblue 3px;
+
+            }
+
+            .k
+            {
+                border:solid pink 10px;
+            }
+            @keyframes boxx
+            {
+              0%{background-color: red;top:0px; left:200px;}
+              25%{background-color: blue;top:0px;left:400px;}
+              50%{background-color: green;top:0px;left:600px;}
+              75%{background-color: pink;top:0px;left:800px;}
+              100%{background-color: orange;top:0px;left:1000px;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="k">
+        <div class="hii"></div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  /* font-family:Arial;
+  border:border-box; */
+}
+
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo
+{
+height:80px;
+width:150px;
+}
+
+.logo
+{
+    background-image: url("C:\\Users\\sahan\\OneDrive\\Desktop\\Amazon-Emblem.jpg");
+    background-size:cover ;
+    height:60px;
+    width:90%;
+}
+
+.border
+{
+     border:2px solid transparent;
+}
+
+.border:hover
+{
+    border:1.5px solid white;
+}
+
+
+/* box2 */
+
+.add-first
+{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second
+{
+   font-size:1rem;
+   margin-left: 3px;
+}
+
+.add-icon
+{
+    display:flex;
+    align-items:center;
+}
+
+
+/* BOX-03 */
+
+.nav-search
+{
+display:flex;
+background-color: pink;
+width:620px;
+height:40px;
+border-radius: 3px;
+justify-content: space-evenly;
+}
+
+.search-select
+{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+
+.search-input
+{
+    width:100%;
+    border:none;
+}
+
+.search-icon
+{
+    width:45px;
+    justify-content: center;
+    background-color: orange;
+    display:flex;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.3rem;
+}
+
+.nav-search:hover
+{
+border:2px solid orange;
+
+}
+
+
+/* BOX-04 */
+
+span
+{
+font-size:0.7rem;
+}
+
+
+.nav-second
+{
+    font-size:0.87rem;
+    font-weight:700;
+}
+
+
+/* Box-05 */
+
+.nav-cart i
+{
+    font-size:1.57rem;
+    font-weight:700;
+}
+
+
+/* NEW PANNEL */
+
+.pannel
+{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.pannel-ops p
+{
+    display:inline;
+    margin-left:20px;
+}
+
+.pannel-ops
+{
+    width:70%;
+    font-size:0.85rem;
+}
+
+.pannel-deals
+{
+    font-size:0.9rem;
+    font-weight:700;
+}
